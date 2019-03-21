@@ -1,0 +1,257 @@
+﻿
+<html>
+<link rel="shortcut icon" href="картинки/книга.gif"> 
+<HEAD>
+
+<IMG id=Ols  
+style="POSITION: absolute; Middle: 9000px"  src="butterfly13.gif">
+<SCRIPT><!--
+ddx=0;ddy=0;PX=600;PY=0;xm=0;ym=0
+OlsW=Ols.width/2;OlsH=Ols.height/2
+function MoveWinnie(){
+	x=Math.round(PX+=((xm-PX)*3)/400)
+	y=Math.round(PY+=((ym-PY)*3)/400)
+	Ols.style.left=x-OlsW
+	Ols.style.top=y //osw
+	setTimeout("MoveWinnie()",10)   
+}
+function doMouse(){
+	xm=window.event.x
+	ym=window.event.y //butterfly13.gif
+}
+document.onmousemove=doMouse
+MoveWinnie()
+//--></SCRIPT>
+
+<TITLE>
+электронная база данных
+</TITLE>
+<style>
+   .menu .line{
+  float: left;
+  width:25%;
+  }
+  
+   ul {
+    /*width: 310px; */
+    list-style: none; 
+    margin: 0;
+    padding: 0; 
+    font-family: Arial, sans-serif; 
+    font-size: 10pt; 
+   }
+   li ul {
+    position: absolute; 
+    display: none; 
+   /* margin-left: 180px; */	
+    margin-top: 0em; 
+	    width: 25%;
+   }
+   li a {
+    display: block; 
+    padding: 10px; 
+    text-decoration: none; 
+    color: #666; 
+    border: 1px solid #ccc;
+    background-color: #ffffff; 
+    border-bottom: none; 
+   }
+   li a:hover {
+    color: #ffe; 
+    background-color:rgb(250, 222, 251); 
+   }
+   li:hover ul { 
+    display: block; 
+   }
+   .brd {
+    border-bottom: 1px solid #ccc; 
+   }
+
+  </style>
+   <style type="text/css">
+   .line{
+  float: left;
+  width:310px;
+  }
+
+  </style> 
+   <style type="text/css">
+   .1 { 
+    width: 200px; 
+    background: #ccc;
+    padding: 5px;
+    padding-right: 20px; 
+    border: solid 1px black; 
+    float: left;
+   }
+   .2 { 
+    width: 200px; 
+    background: #fc0; 
+    padding: 5px; 
+    border: solid 1px black; 
+    float: left; 
+    position: relative; 
+    top: 40px; 
+    left: -70px; 
+   }
+   </style>
+      <style>
+ .q  {
+    float: right; /* Выравнивание по правому краю  */ 
+    margin-right:5% ; /* Отступы вокруг картинки */
+   }
+      </style>
+	  <style>
+ .w  {
+    float: right; /* Выравнивание по правому краю  */ 
+    
+   }
+      </style>
+<body onload="Carousel()" bgcolor='white'>
+
+<table width=100% height=100% border=0 bgcolor=#ffccff>
+
+<td width=100% height=1% bgcolor=#ffffcc valign=top>
+
+<font color=black size=5> 
+<ul class="menu">
+   <li class="line"><a href='главная.html'> <font size="5" color="#FF4040"> Главная страница </a> </font>
+    <ul> 
+     <li><a href="linkr4.html" class="brd"> <font color=#FF4040 size=3>блог(чат)</a></li> </font>
+    </ul> 
+   </li> 
+   <li class="line"><a href='список.htm'> <font color=#FF4040 size=5>Список писателей </a></font>
+    <ul> <font color=#EEE8AA size=3>
+ <li> <a href='советские.htm'> <font color=#FF4040>  Советские писатели </a></li> </font>
+     <li><a href='иностраные.htm'> <font color=#FF4040> Иностранные писатели </a> </li> </font>
+     <li><a href='современные.htm'> <font color=#FF4040> Современные писатели </a> </li> </font>
+     <li><a href='Казахские.htm'> <font color=#FF4040> Казахские писатели  </a></li> </font>
+	 <li><a href='классики.HTM'><font color=#FF4040>Классики</a></li> </font>
+	 
+    </ul> 
+   </li>
+   <li class="line"><a href='осайте.htm'><font color=#FF4040 size=5 > О сайте </a> </font>
+    <ul> <li><a href="linkc4.html" class="brd"><font color=#FF4040 size=3>о нас</a></li> </font>
+    </ul> 
+   </li> 
+   <li class="line"><a href="asia.html" ><font color=#FF4040 size=5 !--class="brd">статистика</a></li> </font>
+  </ul></font>
+</font>
+</td>   <img src='картинки/1.jpg' align=centr width=100% style="height:200px;"></tr>
+<td>
+<table width=100% height=100% border=0 body background='картинки/fon.jpg'width=120% height=120%>
+<tr>
+<td height=80 bgcolor="#FFCCcF"><center><h1><font color=black>Электронная библиотека
+</center></td></tr>
+
+
+
+
+
+
+
+
+<tr><td valign=top><h3>
+<font color=black size=6><center>Cтатистика </font></center></h3>
+<center>
+
+<br> 
+<label for="message-text" class="control-label">Отзыв</label>
+            <textarea class="form-control" id="message-text" rows=20 cols=40 placeholder="написать"></textarea><br><br>
+			<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="не работает">Отправить</button>
+           
+ 
+<br><br><br><br>
+<font color=black size=5>
+ Понравилось ли у нас ?</font>
+ <font color=black size=4>
+  <br>
+  <input type="radio" name="id" id="id1" />
+  <label for="id1">Да</label>
+  <br>
+  <input type="radio" id="id2" name="id"/>
+  <label for="id2">Нет</label>
+  <br>
+  <input type="radio" id="id3" name="id"/>
+  <label for="id3">Наверное </label>
+  <br>
+1. Любите ли вы читать книги?  <br>
+ <input type="radio" name="idl" id="id4" />
+  <label for="id4">Да</label>
+  <br>
+  <input type="radio" id="id6" name="idl"/>
+  <label for="id6">Нет</label>
+  <br>
+  <input type="radio" id="id7" name="idl"/>
+  <label for="id7">Наверное </label>
+  <br>
+2. Сколько времени в день вы уделяете чтению?  <br>
+ <input type="radio" name="idr" id="id1l" /> 
+  <label for="id1l">Да</label>
+  <br>
+  <input type="radio" id="id2r" name="idr"/>
+  <label for="id2r">Нет</label>
+  <br>
+  <input type="radio" id="id3y" name="idr"/>
+  <label for="id3y">Наверное </label>
+  <br>
+3. Нравится ли вам работать на компьютере?  <br>
+ <input type="radio" name="idj" id="id8" />
+  <label for="id8">Да</label>
+  <br>
+  <input type="radio" id="id9" name="idj"/>
+  <label for="id9">Нет</label>
+  <br>
+  <input type="radio" id="id10" name="idj"/>
+  <label for="id10">Наверное </label>
+  <br>
+4. Сколько времени в день вы проводите за ПК?  <br>
+ <input type="radio" name="idq" id="id1w" />
+  <label for="id1w">Да</label>
+  <br>
+  <input type="radio" id="id2e" name="idq"/>
+  <label for="id2e">Нет</label>
+  <br>
+  <input type="radio" id="id3t" name="idq"/>
+  <label for="id3t">Наверное </label>
+  <br>
+5. Что вы выберете: электронный учебник или простой при подготовке к урокам?  <br>
+ <input type="radio" name="idu" id="id1i" />
+  <label for="id1i">Да</label>
+  <br>
+  <input type="radio" id="id2i" name="idu"/>
+  <label for="id2i">Нет</label>
+  <br>
+  <input type="radio" id="id3i" name="idu"/>
+  <label for="id3i">Наверное </label>
+  <br>
+  
+6. Будите ли вы пользоваться электронным учебником в библиотеке при подготовке к уроку литературы? <br>
+ <input type="radio" name="idi" id="id1i" />
+  <label for="id1i">Да</label>
+  <br>
+  <input type="radio" id="id2o" name="idi"/>
+  <label for="id2o">Нет</label>
+  <br>
+  <input type="radio" id="id3o" name="idi"/>
+  <label for="id3o">Наверное </label>
+  <br>
+  <br>
+<!--<body text=#666666 background='12.jpg'width=100% height=100%>-->
+
+<br>
+<a href="https://vk.com/write?email=danil-plaksin@mail.ru" target="_blank"> <br><img src="картинки/кролик.jpg" height=40% area="right" class="w"></a>
+
+ <br> 
+<br><br><br><br><br><br><br><br><br><br>
+</font>
+</tr>
+</table>
+</td>
+
+</tr>
+</table>
+</center>
+
+</BODY>
+</HTML>  

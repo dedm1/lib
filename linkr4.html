@@ -1,0 +1,190 @@
+
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <link rel="shortcut icon" href="картинки/книги.gif"> 
+
+<TITLE>
+электронная база данных
+</TITLE>
+	<IMG id=Ols  
+style="POSITION: absolute; Middle: 9000px"  src="butterfly13.gif">
+<SCRIPT>
+ddx=0;ddy=0;PX=600;PY=0;xm=0;ym=0
+OlsW=Ols.width/2;OlsH=Ols.height/2
+function MoveWinnie(){
+	x=Math.round(PX+=((xm-PX)*3)/400)
+	y=Math.round(PY+=((ym-PY)*3)/400)
+	Ols.style.left=x-OlsW
+	Ols.style.top=y //osw
+	setTimeout("MoveWinnie()",10)   
+}
+function doMouse(){
+	xm=window.event.x
+	ym=window.event.y //butterfly13.gif
+}
+document.onmousemove=doMouse
+MoveWinnie()
+//</SCRIPT>
+<style>
+   .menu .line{
+  float: left;
+  width:25%;
+  }
+  
+   ul {
+    /*width: 310px; */
+    list-style: none; 
+    margin: 0;
+    padding: 0; 
+    font-family: Arial, sans-serif; 
+    font-size: 10pt; 
+   }
+   li ul {
+    position: absolute; 
+    display: none; 
+   /* margin-left: 180px; */	
+    margin-top: 0em; 
+	    width: 25%;
+   }
+   li a {
+    display: block; 
+    padding: 10px; 
+    text-decoration: none; 
+    color: #666; 
+    border: 1px solid #ccc;
+    background-color: #ffffff; 
+    border-bottom: none; 
+   }
+   li a:hover {
+    color: #ffe; 
+    background-color:rgb(250, 222, 251); 
+   }
+   li:hover ul { 
+    display: block; 
+   }
+   .brd {
+    border-bottom: 1px solid #ccc; 
+   }
+
+  </style>
+    <title>Ведический Чат</title>
+	<script type="text/javascript">
+  function send() {
+    var message = document.getElementById("message").value;
+    var name = "Гость";
+    /* Здесь блок отправки POST-запроса с данными (например, через Ajax) */
+  }
+  function update() {
+    /* Здесь отправка запроса на получение всех сообщений (например, через Ajax) */
+    /* Здесь вывод сообщений в определённом формате прямо в HTML-код с использованием DOM, либо JQuery. */
+  }
+  setInterval("update()", 1000); // Обновление окна чата каждую секунду
+  
+  <?php
+  /* Получаем данные, полученные из JavaScript */
+  $message = $_POST["message"];
+  $name = $_POST["name"];
+  $date = date(); // Узнаём текущее время и дату
+  /* Здесь добавляем в таблицу новую запись */
+?>
+ //*<?php
+  /* Вытаскиваем все записи из таблицы */
+  /* Получаем двумерный массив из полученных данных */
+  /* Преобразуем массив в json-формат и возвращаем его в javascript, где он уже будет выводиться */
+ //*?>
+</script>
+</head>
+
+
+<body  >
+
+<table width=100% height=100% border=0 bgcolor=#ffccff>
+
+<td width=100% height=1% bgcolor=#ffffcc valign=top>
+
+<font color=black size=5> 
+<ul class="menu">
+   <li class="line"><a href='главная.html'> <font size="5" color="#FF4040"> Главная страница </a> </font>
+    <ul> 
+     <li><a href="linkr4.html" class="brd"> <font color=#FF4040 size=3>блог(чат)</a></li> </font>
+    </ul> 
+   </li> 
+   <li class="line"><a href='список.htm'> <font color=#FF4040 size=5>Список писателей </a></font>
+    <ul> <font color=#EEE8AA size=3>
+ <li> <a href='советские.htm'> <font color=#FF4040>  Советские писатели </a></li> </font>
+     <li><a href='иностраные.htm'> <font color=#FF4040> Иностранные писатели </a> </li> </font>
+     <li><a href='современные.htm'> <font color=#FF4040> Современные писатели </a> </li> </font>
+     <li><a href='Казахские.htm'> <font color=#FF4040> Казахские писатели  </a></li> </font>
+	 <li><a href='классики.htm'><font color=#FF4040>Классики</a></li> </font>
+    </ul> 
+   </li>
+   <li class="line"><a href='осайте.htm'><font color=#FF4040 size=5 > О сайте </a> </font>
+    <ul> <li><a href="linkc4.html" class="brd"><font color=#FF4040 size=3>о нас</a></li> </font>
+    </ul> 
+   </li> 
+   <li class="line"><a href="asia.html" ><font color=#FF4040 size=5 !--class="brd">статистика</a></li> </font>
+  </ul></font>
+</font>
+</td>   <img src='картинки/1.jpg' align=centr width=100% style="height:200px;"></tr>
+<td>
+<table width=100% height=100% border=0 body background='картинки/fon.jpg'width=120% height=120%>
+<tr>
+<td height=80 bgcolor="#FFCCcF"><center><h1><font color=black>Электронная библиотека
+</center></td></tr>
+
+
+
+
+
+
+
+<tr><td valign=top><h3>
+<font color=black size=6><center><h1>Chat</font></center></h3>
+
+<font color=black size=5>   
+<br>
+
+<script type="text/javascript" src="js/2.js" ></script>
+<script type="text/javascript" src="js/118.js" ></script>
+<script type="text/javascript" src="js/1.5.js" ></script>
+<link rel="stylesheet" type="text/css" href="css/79.css"></link>
+ 
+<!-- Осталось настроить сам чат и запустить, для этого пишем небольшой скрипт. -->
+<center>
+<div  id="html-chat"></div>
+<style>
+/* Здесь настроим css стили для чата*/
+.holder-html-chat{ border: 1px solid #de3838 ;padding:10px;background-color: #f3f3b9;width: 600px;}
+.html-chat-history{ max-width: 600px; overflow: auto;max-height: 900px; border: 1px solid #ccc;padding: 5px;background-color: #f3f3b9;}
+.html-chat-js-name{ margin-top:10px;background-color: #f3f3b9; }
+.html-chat-js-input{ max-width: 600px;max-height: 100px;width: 600px;margin-top:10px;background-color: #f3f3b9; }
+.html-chat-js-button-holder{ margin-bottom: 0px;margin-top: 10px; background-color: #f3f3b9;}
+.html-chat-js-button-holder input{ width: 220px;background-color: #f3f3b9; }
+.html-chat-js-answer{ float:right; background-color: #f3f3b9;}
+.html-chat-js-answer a{ color: #777;font-size: 12px; font-family: cursive;background-color: #f3f3b9;}
+.html-chat-js-answer a:hover{ color: #338;font-size: 12px; font-family: cursive;background-color: #f3f3b9;}
+.html-chat-msg{ margin: 0px; background-color: #f3f3b9;}
+</style>
+ 
+<script>
+ 
+   /**
+    * Чат работает на comet-server.ru
+    * По любым вопросам обращайтесь support@comet-server.ru или на сайт comet-server.ru
+    */
+   $(document).ready(function()
+ {
+       // Запуск api комет сервера
+      // CometServer().start({dev_id: 15 }) // Идентификатор разработчика на comet-server.ru
+ 
+       // Запуск чата. Передаём ему элемент в котором надо создать окно чата.
+     htmljs_Chat_Init( $("#html-chat") )
+  });
+</script>
+
+
+</body>
+</html>
